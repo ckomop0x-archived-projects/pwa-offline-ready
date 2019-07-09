@@ -1,0 +1,24 @@
+{
+  "name": "pwa-series",
+  "version": "1.0.0",
+  "description": "![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000) [![Twitter: ckomop0x](https://img.shields.io/twitter/follow/ckomop0x.svg?style=social)](https://twitter.com/ckomop0x)",
+  "main": "app.js",
+  "scripts": {
+    "build": "workbox generateSW workbox-config.js",
+    "build:inject": "workbox injectManifest workbox-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckomop0x/pwa-series.git"
+  },
+  "keywords": [],
+  "author": "Pavel Ckomop0x Klochkov <paul.klochkov@gmail.com> (https://ckomop0x.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckomop0x/pwa-series/issues"
+  },
+  "homepage": "https://github.com/ckomop0x/pwa-series#readme",
+  "devDependencies": {
+    "workbox-cli": "4.3.1"
+  }
+}

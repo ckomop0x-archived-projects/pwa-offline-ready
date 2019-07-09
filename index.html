@@ -48,11 +48,11 @@
 <script src="app.js"></script>
 <script>
 	if ('serviceWorker' in navigator) {
-	  navigator.serviceWorker.register('sw.js')
-		  .then(registration => {
-		    console.log(registration)
-		  })
-		  .catch(error => console.log(error))
+	  window.addEventListener("load", () => {
+      navigator.serviceWorker.register('sw.js')
+        .then(console.log)
+        .catch(console.log)
+	  })
 	}
 </script>
 </body>
