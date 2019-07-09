@@ -43,10 +43,18 @@
 <header>
 	Attendees
 </header>
-
 <div id="attendees"></div>
 
 <script src="app.js"></script>
+<script>
+	if ('serviceWorker' in navigator) {
+	  navigator.serviceWorker.register('sw.js')
+		  .then(registration => {
+		    console.log(registration)
+		  })
+		  .catch(error => console.log(error))
+	}
+</script>
 </body>
 
 </html>
