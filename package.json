@@ -4,7 +4,8 @@
   "description": "![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000) [![Twitter: ckomop0x](https://img.shields.io/twitter/follow/ckomop0x.svg?style=social)](https://twitter.com/ckomop0x)",
   "main": "app.js",
   "scripts": {
-    "build": "workbox generateSW workbox-config.js",
+    "build": "webpack",
+    "build:old": "workbox generateSW workbox-config.js",
     "build:inject": "workbox injectManifest workbox-config.js"
   },
   "repository": {
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/ckomop0x/pwa-series#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "5.0.3",
+    "webpack": "4.35.3",
+    "webpack-cli": "3.3.5",
     "workbox-cli": "4.3.1"
   }
 }
