@@ -1,10 +1,10 @@
 # Welcome to pwa-series 👋
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![Twitter: ckomop0x](https://img.shields.io/twitter/follow/ckomop0x.svg?style=social)](https://twitter.com/ckomop0x)
 
 > Progressive web application for study purpose
 
-### 🏠 [Homepage](https://github.com/ckomop0x/pwa-series)
+### 🏠 [Homepage](https://pwa-offline-ready.paulklochkov.now.sh/)
 
 ## Install
 
@@ -20,7 +20,7 @@ npm run publish
 
 #### Lighthouse
 [![Lighthouse](https://rawgit.com/emazzotta/lighthouse-badges/master/assets/img/lighthouse.svg)](https://github.com/GoogleChrome/lighthouse)  
-[100% mobile / 100% Desktop](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdist.paulklochkov.now.sh%2F&tab=mobilegst)
+[100% mobile / 100% Desktop](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fpwa-offline-ready.paulklochkov.now.sh%2F&tab=mobilegst)
 
 ## Author
 
