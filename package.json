@@ -6,7 +6,9 @@
   "scripts": {
     "build": "webpack",
     "build:old": "workbox generateSW workbox-config.js",
-    "build:inject": "workbox injectManifest workbox-config.js"
+    "build:inject": "workbox injectManifest workbox-config.js",
+    "prepublish": "rm -rf dist && npm run build",
+    "publish": "now dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
     "copy-webpack-plugin": "5.0.3",
     "webpack": "4.35.3",
     "webpack-cli": "3.3.5",
-    "workbox-cli": "4.3.1"
+    "workbox-cli": "4.3.1",
+    "workbox-webpack-plugin": "4.3.1"
   }
 }

@@ -1,10 +1,8 @@
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
 console.log("⚙️ Hello from Service Worker")
 
 workbox.routing.registerRoute(
   /https:\/\/jsonplaceholder.typicode.com/,
-  workbox.strategies.networkFirst()
+  new workbox.strategies.NetworkFirst()
 )
 
-workbox.precaching.precacheAndRoute([]);
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
