@@ -12,6 +12,12 @@
 npm install
 ```
 
+## Deploy to Now (now.sh)
+
+```sh
+npm run publish
+```
+
 #### Lighthouse
 [![Lighthouse](https://rawgit.com/emazzotta/lighthouse-badges/master/assets/img/lighthouse.svg)](https://github.com/GoogleChrome/lighthouse)  
 [100% mobile / 100% Desktop](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdist.paulklochkov.now.sh%2F&tab=mobilegst)
